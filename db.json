@@ -1,14 +1,6274 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"data": [
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 05:30",
+			"odometer": 500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 08:35",
+			"odometer": 550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 10:35",
+			"odometer": 600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 12:35",
+			"odometer": 650,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 14:35",
+			"odometer": 700,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 16:35",
+			"odometer": 750,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 18:35",
+			"odometer": 800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 20:35",
+			"odometer": 850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/07/2018 22:35",
+			"odometer": 900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 05:30",
+			"odometer": 950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 08:35",
+			"odometer": 1000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 10:35",
+			"odometer": 1050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 12:35",
+			"odometer": 1100,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 14:35",
+			"odometer": 1150,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 16:35",
+			"odometer": 1200,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 18:35",
+			"odometer": 1250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 20:35",
+			"odometer": 1300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/07/2018 22:35",
+			"odometer": 1350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 05:30",
+			"odometer": 1400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 08:35",
+			"odometer": 1450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 10:35",
+			"odometer": 1500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 12:35",
+			"odometer": 1550,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 14:35",
+			"odometer": 1600,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 16:35",
+			"odometer": 1650,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 18:35",
+			"odometer": 1700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 20:35",
+			"odometer": 1750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/07/2018 22:35",
+			"odometer": 1800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 05:30",
+			"odometer": 1850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 08:35",
+			"odometer": 1900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 10:35",
+			"odometer": 1950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 12:35",
+			"odometer": 2000,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 14:35",
+			"odometer": 2050,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 16:35",
+			"odometer": 2100,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 18:35",
+			"odometer": 2150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 20:35",
+			"odometer": 2200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/07/2018 22:35",
+			"odometer": 2250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 05:30",
+			"odometer": 2300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 08:35",
+			"odometer": 2350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 10:35",
+			"odometer": 2400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 12:35",
+			"odometer": 2450,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 14:35",
+			"odometer": 2500,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 16:35",
+			"odometer": 2550,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 18:35",
+			"odometer": 2600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 20:35",
+			"odometer": 2650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/07/2018 22:35",
+			"odometer": 2700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 05:30",
+			"odometer": 2750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 08:35",
+			"odometer": 2800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 10:35",
+			"odometer": 2850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 12:35",
+			"odometer": 2900,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 14:35",
+			"odometer": 2950,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 16:35",
+			"odometer": 3000,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 18:35",
+			"odometer": 3050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 20:35",
+			"odometer": 3100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/07/2018 22:35",
+			"odometer": 3150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 05:30",
+			"odometer": 3200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 08:35",
+			"odometer": 3250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 10:35",
+			"odometer": 3300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 12:35",
+			"odometer": 3350,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 14:35",
+			"odometer": 3400,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 16:35",
+			"odometer": 3450,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 18:35",
+			"odometer": 3500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 20:35",
+			"odometer": 3550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/07/2018 22:35",
+			"odometer": 3600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 05:30",
+			"odometer": 3650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 08:35",
+			"odometer": 3700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 10:35",
+			"odometer": 3750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 12:35",
+			"odometer": 3800,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 14:35",
+			"odometer": 3850,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 16:35",
+			"odometer": 3900,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 18:35",
+			"odometer": 3950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 20:35",
+			"odometer": 4000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/07/2018 22:35",
+			"odometer": 4050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 05:30",
+			"odometer": 4100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 08:35",
+			"odometer": 4150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 10:35",
+			"odometer": 4200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 12:35",
+			"odometer": 4250,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 14:35",
+			"odometer": 4300,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 16:35",
+			"odometer": 4350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 18:35",
+			"odometer": 4400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 20:35",
+			"odometer": 4450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/07/2018 22:35",
+			"odometer": 4500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 05:30",
+			"odometer": 4550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 08:35",
+			"odometer": 4600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 10:35",
+			"odometer": 4650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 12:35",
+			"odometer": 4700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 14:35",
+			"odometer": 4750,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 16:35",
+			"odometer": 4800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 18:35",
+			"odometer": 4850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 20:35",
+			"odometer": 4900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/07/2018 22:35",
+			"odometer": 4950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 05:30",
+			"odometer": 5000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 08:35",
+			"odometer": 5050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 10:35",
+			"odometer": 5100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 12:35",
+			"odometer": 5150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 14:35",
+			"odometer": 5200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 16:35",
+			"odometer": 5250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 18:35",
+			"odometer": 5300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 20:35",
+			"odometer": 5350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/07/2018 22:35",
+			"odometer": 5400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 05:30",
+			"odometer": 5450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 08:35",
+			"odometer": 5500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 10:35",
+			"odometer": 5550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 12:35",
+			"odometer": 5600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 14:35",
+			"odometer": 5700,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 16:35",
+			"odometer": 5750,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 18:35",
+			"odometer": 5800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 20:35",
+			"odometer": 5850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/07/2018 22:35",
+			"odometer": 5900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 05:30",
+			"odometer": 5950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 08:35",
+			"odometer": 6000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 10:35",
+			"odometer": 6050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 12:35",
+			"odometer": 6100,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 14:35",
+			"odometer": 6150,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 16:35",
+			"odometer": 6200,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 18:35",
+			"odometer": 6250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 20:35",
+			"odometer": 6300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/07/2018 22:35",
+			"odometer": 6350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 05:30",
+			"odometer": 6400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 08:35",
+			"odometer": 6550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 10:35",
+			"odometer": 6600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 12:35",
+			"odometer": 6650,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 14:35",
+			"odometer": 6700,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 16:35",
+			"odometer": 6750,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 18:35",
+			"odometer": 6800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 20:35",
+			"odometer": 6850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/07/2018 22:35",
+			"odometer": 6900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 05:30",
+			"odometer": 6950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 08:35",
+			"odometer": 7000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 10:35",
+			"odometer": 7050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 12:35",
+			"odometer": 7100,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 14:35",
+			"odometer": 7150,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 16:35",
+			"odometer": 7200,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 18:35",
+			"odometer": 7250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 20:35",
+			"odometer": 7300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/07/2018 22:35",
+			"odometer": 7350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 05:30",
+			"odometer": 7400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 08:35",
+			"odometer": 7450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 10:35",
+			"odometer": 7500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 12:35",
+			"odometer": 7550,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 14:35",
+			"odometer": 7600,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 16:35",
+			"odometer": 7650,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 18:35",
+			"odometer": 7700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 20:35",
+			"odometer": 7750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/07/2018 22:35",
+			"odometer": 7800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 05:30",
+			"odometer": 7850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 08:35",
+			"odometer": 7900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 10:35",
+			"odometer": 7950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 12:35",
+			"odometer": 8000,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 14:35",
+			"odometer": 8050,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 16:35",
+			"odometer": 8100,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 18:35",
+			"odometer": 8150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 20:35",
+			"odometer": 8200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/07/2018 22:35",
+			"odometer": 8250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 05:30",
+			"odometer": 8300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 08:35",
+			"odometer": 8350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 10:35",
+			"odometer": 8400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 12:35",
+			"odometer": 8450,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 14:35",
+			"odometer": 8500,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 16:35",
+			"odometer": 8550,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 18:35",
+			"odometer": 8600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 20:35",
+			"odometer": 8650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/07/2018 22:35",
+			"odometer": 8700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 05:30",
+			"odometer": 8750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 08:35",
+			"odometer": 8800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 10:35",
+			"odometer": 8850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 12:35",
+			"odometer": 8900,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 14:35",
+			"odometer": 8950,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 16:35",
+			"odometer": 9000,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 18:35",
+			"odometer": 9050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 20:35",
+			"odometer": 9100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/07/2018 22:35",
+			"odometer": 9150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 05:30",
+			"odometer": 9200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 08:35",
+			"odometer": 9250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 10:35",
+			"odometer": 9300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 12:35",
+			"odometer": 9350,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 14:35",
+			"odometer": 9400,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 16:35",
+			"odometer": 9450,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 18:35",
+			"odometer": 9500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 20:35",
+			"odometer": 9550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/07/2018 22:35",
+			"odometer": 9600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 05:30",
+			"odometer": 9650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 08:35",
+			"odometer": 9700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 10:35",
+			"odometer": 9750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 12:35",
+			"odometer": 9800,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 14:35",
+			"odometer": 9850,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 16:35",
+			"odometer": 9900,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 18:35",
+			"odometer": 9950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 20:35",
+			"odometer": 10000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/07/2018 22:35",
+			"odometer": 10050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 05:30",
+			"odometer": 10100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 08:35",
+			"odometer": 10150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 10:35",
+			"odometer": 10200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 12:35",
+			"odometer": 10250,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 14:35",
+			"odometer": 10300,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 16:35",
+			"odometer": 10350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 18:35",
+			"odometer": 10400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 20:35",
+			"odometer": 10450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/07/2018 22:35",
+			"odometer": 10500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 05:30",
+			"odometer": 10550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 08:35",
+			"odometer": 10600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 10:35",
+			"odometer": 10650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 12:35",
+			"odometer": 10700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 14:35",
+			"odometer": 10750,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 16:35",
+			"odometer": 10800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 18:35",
+			"odometer": 10850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 20:35",
+			"odometer": 10900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/07/2018 22:35",
+			"odometer": 10950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 05:30",
+			"odometer": 11000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 08:35",
+			"odometer": 11050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 10:35",
+			"odometer": 11100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 12:35",
+			"odometer": 11150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 14:35",
+			"odometer": 11200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 16:35",
+			"odometer": 11250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 18:35",
+			"odometer": 11300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 20:35",
+			"odometer": 11350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/07/2018 22:35",
+			"odometer": 11400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 05:30",
+			"odometer": 11450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 08:35",
+			"odometer": 11500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 10:35",
+			"odometer": 11550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 12:35",
+			"odometer": 11600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 14:35",
+			"odometer": 11650,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 16:35",
+			"odometer": 11700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 18:35",
+			"odometer": 11750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 20:35",
+			"odometer": 11800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/07/2018 22:35",
+			"odometer": 11850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 05:30",
+			"odometer": 11900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 08:35",
+			"odometer": 11950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 10:35",
+			"odometer": 12000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 12:35",
+			"odometer": 12050,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 14:35",
+			"odometer": 12100,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 16:35",
+			"odometer": 12150,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 18:35",
+			"odometer": 12200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 20:35",
+			"odometer": 12250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/07/2018 22:35",
+			"odometer": 12300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 05:30",
+			"odometer": 12350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 08:35",
+			"odometer": 12400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 10:35",
+			"odometer": 12450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 12:35",
+			"odometer": 12500,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 14:35",
+			"odometer": 12550,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 16:35",
+			"odometer": 12600,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 18:35",
+			"odometer": 12650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 20:35",
+			"odometer": 12700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/07/2018 22:35",
+			"odometer": 12750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 05:30",
+			"odometer": 12800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 08:35",
+			"odometer": 12850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 10:35",
+			"odometer": 12900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 12:35",
+			"odometer": 12950,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 14:35",
+			"odometer": 13000,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 16:35",
+			"odometer": 13050,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 18:35",
+			"odometer": 13100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 20:35",
+			"odometer": 13150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/07/2018 22:35",
+			"odometer": 13200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 05:30",
+			"odometer": 13250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 08:35",
+			"odometer": 13300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 10:35",
+			"odometer": 13350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 12:35",
+			"odometer": 13400,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 14:35",
+			"odometer": 13450,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 16:35",
+			"odometer": 13500,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 18:35",
+			"odometer": 13550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 20:35",
+			"odometer": 13600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/07/2018 22:35",
+			"odometer": 13650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 05:30",
+			"odometer": 14000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 08:35",
+			"odometer": 14050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 10:35",
+			"odometer": 14100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 12:35",
+			"odometer": 14150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 14:35",
+			"odometer": 14200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 16:35",
+			"odometer": 14250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 18:35",
+			"odometer": 14300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 20:35",
+			"odometer": 14350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/08/2018 22:35",
+			"odometer": 14400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 05:30",
+			"odometer": 14450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 08:35",
+			"odometer": 14500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 10:35",
+			"odometer": 14550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 12:35",
+			"odometer": 14600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 14:35",
+			"odometer": 14650,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 16:35",
+			"odometer": 14700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 18:35",
+			"odometer": 14750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 20:35",
+			"odometer": 14800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/08/2018 22:35",
+			"odometer": 14850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 05:30",
+			"odometer": 14970,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 08:35",
+			"odometer": 15050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 10:35",
+			"odometer": 15100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 12:35",
+			"odometer": 15150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 14:35",
+			"odometer": 15200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 16:35",
+			"odometer": 15250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 18:35",
+			"odometer": 15300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 20:35",
+			"odometer": 15350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/08/2018 22:35",
+			"odometer": 15400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 05:30",
+			"odometer": 15450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 08:35",
+			"odometer": 15500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 10:35",
+			"odometer": 15550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 12:35",
+			"odometer": 15600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 14:35",
+			"odometer": 15650,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 16:35",
+			"odometer": 15700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 18:35",
+			"odometer": 15750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 20:35",
+			"odometer": 15800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/08/2018 22:35",
+			"odometer": 15850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 05:30",
+			"odometer": 15900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 08:35",
+			"odometer": 15950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 10:35",
+			"odometer": 16000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 12:35",
+			"odometer": 16050,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 14:35",
+			"odometer": 16100,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 16:35",
+			"odometer": 16150,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 18:35",
+			"odometer": 16200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 20:35",
+			"odometer": 16250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/08/2018 22:35",
+			"odometer": 16300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 05:30",
+			"odometer": 16350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 08:35",
+			"odometer": 16400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 10:35",
+			"odometer": 16450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 12:35",
+			"odometer": 16500,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 14:35",
+			"odometer": 16550,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 16:35",
+			"odometer": 16600,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 18:35",
+			"odometer": 16650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 20:35",
+			"odometer": 16700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 22:35",
+			"odometer": 16750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 05:30",
+			"odometer": 16800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 08:35",
+			"odometer": 16850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 10:35",
+			"odometer": 16900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 12:35",
+			"odometer": 16950,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 14:35",
+			"odometer": 17000,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 16:35",
+			"odometer": 17050,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 18:35",
+			"odometer": 17100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 20:35",
+			"odometer": 17150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/08/2018 22:35",
+			"odometer": 17200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 05:30",
+			"odometer": 17250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 08:35",
+			"odometer": 17300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 10:35",
+			"odometer": 17350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 12:35",
+			"odometer": 17400,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 14:35",
+			"odometer": 17450,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 16:35",
+			"odometer": 17500,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 18:35",
+			"odometer": 17550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 20:35",
+			"odometer": 17600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/08/2018 22:35",
+			"odometer": 17650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 05:30",
+			"odometer": 17700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 08:35",
+			"odometer": 17750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 10:35",
+			"odometer": 17800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 12:35",
+			"odometer": 17850,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 14:35",
+			"odometer": 17900,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 16:35",
+			"odometer": 17950,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 18:35",
+			"odometer": 18000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 20:35",
+			"odometer": 18050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/08/2018 22:35",
+			"odometer": 18100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 05:30",
+			"odometer": 18150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 08:35",
+			"odometer": 18200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 10:35",
+			"odometer": 18250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 12:35",
+			"odometer": 18300,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 14:35",
+			"odometer": 18350,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 16:35",
+			"odometer": 18400,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 18:35",
+			"odometer": 18450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 20:35",
+			"odometer": 18500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/08/2018 22:35",
+			"odometer": 18550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 05:30",
+			"odometer": 18600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 08:35",
+			"odometer": 18650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 10:35",
+			"odometer": 18700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 12:35",
+			"odometer": 18750,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 14:35",
+			"odometer": 18800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 16:35",
+			"odometer": 18850,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 18:35",
+			"odometer": 18900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 20:35",
+			"odometer": 18950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/08/2018 22:35",
+			"odometer": 19000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 05:30",
+			"odometer": 19050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 08:35",
+			"odometer": 19100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 10:35",
+			"odometer": 19150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 12:35",
+			"odometer": 19200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 14:35",
+			"odometer": 19250,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 16:35",
+			"odometer": 19300,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 18:35",
+			"odometer": 19350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 20:35",
+			"odometer": 19400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/08/2018 22:35",
+			"odometer": 19450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 05:30",
+			"odometer": 19500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 08:35",
+			"odometer": 19550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 10:35",
+			"odometer": 20000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 12:35",
+			"odometer": 20050,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 14:35",
+			"odometer": 20100,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 16:35",
+			"odometer": 20150,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 18:35",
+			"odometer": 20200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 20:35",
+			"odometer": 20250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/08/2018 22:35",
+			"odometer": 20300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 05:30",
+			"odometer": 20350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 08:35",
+			"odometer": 20400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 10:35",
+			"odometer": 20450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 12:35",
+			"odometer": 20450,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 14:35",
+			"odometer": 20500,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 16:35",
+			"odometer": 20550,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 18:35",
+			"odometer": 20600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 20:35",
+			"odometer": 20650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/08/2018 22:35",
+			"odometer": 20700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 05:30",
+			"odometer": 20750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 08:35",
+			"odometer": 20800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 10:35",
+			"odometer": 20850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 12:35",
+			"odometer": 20900,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 14:35",
+			"odometer": 20950,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 16:35",
+			"odometer": 21000,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 18:35",
+			"odometer": 21050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 20:35",
+			"odometer": 21100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/08/2018 22:35",
+			"odometer": 21150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 05:30",
+			"odometer": 21200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 08:35",
+			"odometer": 21250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 10:35",
+			"odometer": 21300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 12:35",
+			"odometer": 21350,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 14:35",
+			"odometer": 21400,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 16:35",
+			"odometer": 21450,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 18:35",
+			"odometer": 21500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 20:35",
+			"odometer": 21550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/08/2018 22:35",
+			"odometer": 21600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 05:30",
+			"odometer": 21650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 08:35",
+			"odometer": 21700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 10:35",
+			"odometer": 21800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 12:35",
+			"odometer": 21850,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 14:35",
+			"odometer": 21900,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 16:35",
+			"odometer": 21950,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 18:35",
+			"odometer": 22000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 20:35",
+			"odometer": 22050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/08/2018 22:35",
+			"odometer": 22100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 05:30",
+			"odometer": 22150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 08:35",
+			"odometer": 22200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 10:35",
+			"odometer": 22250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 12:35",
+			"odometer": 22300,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 14:35",
+			"odometer": 22350,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 16:35",
+			"odometer": 22400,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 18:35",
+			"odometer": 22450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 20:35",
+			"odometer": 22500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/08/2018 22:35",
+			"odometer": 22550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 05:30",
+			"odometer": 22600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 08:35",
+			"odometer": 22650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 10:35",
+			"odometer": 22700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 12:35",
+			"odometer": 22750,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 14:35",
+			"odometer": 22800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 16:35",
+			"odometer": 22850,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 18:35",
+			"odometer": 22900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 20:35",
+			"odometer": 22950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/08/2018 22:35",
+			"odometer": 23000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 05:30",
+			"odometer": 23050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 08:35",
+			"odometer": 23100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 10:35",
+			"odometer": 23150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 12:35",
+			"odometer": 23200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 14:35",
+			"odometer": 23250,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 16:35",
+			"odometer": 23300,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 18:35",
+			"odometer": 23350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 20:35",
+			"odometer": 23400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/08/2018 22:35",
+			"odometer": 23450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 05:30",
+			"odometer": 23500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 08:35",
+			"odometer": 23550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 10:35",
+			"odometer": 23600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 12:35",
+			"odometer": 23650,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 14:35",
+			"odometer": 23700,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 16:35",
+			"odometer": 23750,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 18:35",
+			"odometer": 23800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 20:35",
+			"odometer": 23850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/08/2018 22:35",
+			"odometer": 23900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 05:30",
+			"odometer": 23950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 08:35",
+			"odometer": 24000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 10:35",
+			"odometer": 24050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 12:35",
+			"odometer": 24100,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 14:35",
+			"odometer": 24150,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 16:35",
+			"odometer": 24200,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 18:35",
+			"odometer": 24250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 20:35",
+			"odometer": 24300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/08/2018 22:35",
+			"odometer": 24350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 05:30",
+			"odometer": 24400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 08:35",
+			"odometer": 24450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 10:35",
+			"odometer": 24500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 12:35",
+			"odometer": 24550,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 14:35",
+			"odometer": 24600,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 16:35",
+			"odometer": 24650,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 18:35",
+			"odometer": 24700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 20:35",
+			"odometer": 24750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/08/2018 22:35",
+			"odometer": 24800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 05:30",
+			"odometer": 24850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 08:35",
+			"odometer": 24900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 10:35",
+			"odometer": 24950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 12:35",
+			"odometer": 24950,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 14:35",
+			"odometer": 25000,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 16:35",
+			"odometer": 25050,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 18:35",
+			"odometer": 25100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 20:35",
+			"odometer": 25150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/08/2018 22:35",
+			"odometer": 25200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 05:30",
+			"odometer": 25250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 08:35",
+			"odometer": 25300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 10:35",
+			"odometer": 25350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 12:35",
+			"odometer": 25400,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 14:35",
+			"odometer": 25450,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 16:35",
+			"odometer": 25500,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 18:35",
+			"odometer": 25550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 20:35",
+			"odometer": 25600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/08/2018 22:35",
+			"odometer": 25650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 05:30",
+			"odometer": 25700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 08:35",
+			"odometer": 25750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 10:35",
+			"odometer": 25800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 12:35",
+			"odometer": 25850,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 14:35",
+			"odometer": 25900,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 16:35",
+			"odometer": 25950,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 18:35",
+			"odometer": 26000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 20:35",
+			"odometer": 26050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/08/2018 22:35",
+			"odometer": 26100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 05:30",
+			"odometer": 26150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 08:35",
+			"odometer": 26200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 10:35",
+			"odometer": 26250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 12:35",
+			"odometer": 26300,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 14:35",
+			"odometer": 26350,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 16:35",
+			"odometer": 26400,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 18:35",
+			"odometer": 26450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 20:35",
+			"odometer": 26500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/08/2018 22:35",
+			"odometer": 26550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 05:30",
+			"odometer": 26600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 08:35",
+			"odometer": 26650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 10:35",
+			"odometer": 26700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 12:35",
+			"odometer": 26750,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 14:35",
+			"odometer": 26800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 16:35",
+			"odometer": 27850,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 18:35",
+			"odometer": 27900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 20:35",
+			"odometer": 27950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/08/2018 22:35",
+			"odometer": 28000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 05:30",
+			"odometer": 28050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 08:35",
+			"odometer": 28100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 10:35",
+			"odometer": 28150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 12:35",
+			"odometer": 28200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 14:35",
+			"odometer": 28260,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 16:35",
+			"odometer": 28340,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 18:35",
+			"odometer": 28400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 20:35",
+			"odometer": 28450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/08/2018 22:35",
+			"odometer": 28500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 05:30",
+			"odometer": 28550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 09:35",
+			"odometer": 28600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 10:35",
+			"odometer": 28650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 12:35",
+			"odometer": 28700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 14:35",
+			"odometer": 28800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 16:35",
+			"odometer": 28860,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 18:35",
+			"odometer": 28900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 20:35",
+			"odometer": 28950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/09/2018 22:35",
+			"odometer": 29005,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 05:30",
+			"odometer": 29060,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 09:35",
+			"odometer": 29100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 10:35",
+			"odometer": 29160,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 12:35",
+			"odometer": 29200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 14:35",
+			"odometer": 29250,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 16:35",
+			"odometer": 29300,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 18:35",
+			"odometer": 29400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 20:35",
+			"odometer": 29450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/09/2018 22:35",
+			"odometer": 29500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 05:30",
+			"odometer": 29550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 09:35",
+			"odometer": 29600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 10:35",
+			"odometer": 29650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 12:35",
+			"odometer": 29700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 14:35",
+			"odometer": 29750,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 16:35",
+			"odometer": 29800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 18:35",
+			"odometer": 29850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 20:35",
+			"odometer": 29900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/09/2018 22:35",
+			"odometer": 29950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 05:30",
+			"odometer": 30000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 09:35",
+			"odometer": 30050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 10:35",
+			"odometer": 30100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 12:35",
+			"odometer": 30150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 14:35",
+			"odometer": 30200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 16:35",
+			"odometer": 30250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 18:35",
+			"odometer": 30300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 20:35",
+			"odometer": 30350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/09/2018 22:35",
+			"odometer": 30400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 05:30",
+			"odometer": 30450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 09:35",
+			"odometer": 30500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 10:35",
+			"odometer": 30550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 12:35",
+			"odometer": 30600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 14:35",
+			"odometer": 30650,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 16:35",
+			"odometer": 30700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 18:35",
+			"odometer": 30750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 20:35",
+			"odometer": 30800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/09/2018 22:35",
+			"odometer": 30850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 05:30",
+			"odometer": 30900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 09:35",
+			"odometer": 30950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 10:35",
+			"odometer": 31000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 12:35",
+			"odometer": 31050,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 14:35",
+			"odometer": 31100,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 16:35",
+			"odometer": 31150,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 18:35",
+			"odometer": 31200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 20:35",
+			"odometer": 31250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 22:35",
+			"odometer": 31300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 05:30",
+			"odometer": 31350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 09:35",
+			"odometer": 31400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 10:35",
+			"odometer": 31450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 12:35",
+			"odometer": 31500,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 14:35",
+			"odometer": 31500,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 16:35",
+			"odometer": 31550,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 18:35",
+			"odometer": 31600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 20:35",
+			"odometer": 31650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 22:35",
+			"odometer": 31700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 05:30",
+			"odometer": 31750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 09:35",
+			"odometer": 31800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 10:35",
+			"odometer": 31850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 12:35",
+			"odometer": 31900,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 14:35",
+			"odometer": 31950,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 16:35",
+			"odometer": 32000,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 18:35",
+			"odometer": 32050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 20:35",
+			"odometer": 32100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/09/2018 22:35",
+			"odometer": 32150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 05:30",
+			"odometer": 32200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 09:35",
+			"odometer": 32250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 10:35",
+			"odometer": 32300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 12:35",
+			"odometer": 32350,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 14:35",
+			"odometer": 32400,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 16:35",
+			"odometer": 32450,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 18:35",
+			"odometer": 32500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 20:35",
+			"odometer": 32550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/09/2018 22:35",
+			"odometer": 32600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 05:30",
+			"odometer": 32650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 09:35",
+			"odometer": 32700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 10:35",
+			"odometer": 32750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 12:35",
+			"odometer": 32800,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 14:35",
+			"odometer": 32850,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 16:35",
+			"odometer": 32900,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 18:35",
+			"odometer": 32950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 20:35",
+			"odometer": 33000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/09/2018 22:35",
+			"odometer": 33050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 05:30",
+			"odometer": 33100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 09:35",
+			"odometer": 33150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 10:35",
+			"odometer": 33200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 12:35",
+			"odometer": 33250,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 14:35",
+			"odometer": 33300,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 16:35",
+			"odometer": 33350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 18:35",
+			"odometer": 33400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 20:35",
+			"odometer": 33450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "12/09/2018 22:35",
+			"odometer": 33500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 05:30",
+			"odometer": 33550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 09:35",
+			"odometer": 33600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 10:35",
+			"odometer": 33650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 12:35",
+			"odometer": 33700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 14:35",
+			"odometer": 33760,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 16:35",
+			"odometer": 33800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 18:35",
+			"odometer": 33870,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 20:35",
+			"odometer": 33950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/09/2018 22:35",
+			"odometer": 34000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 05:30",
+			"odometer": 34050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 09:35",
+			"odometer": 34100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 10:35",
+			"odometer": 34150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 12:35",
+			"odometer": 34200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 14:35",
+			"odometer": 34250,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 16:35",
+			"odometer": 34300,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 18:35",
+			"odometer": 34350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 20:35",
+			"odometer": 34400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/09/2018 22:35",
+			"odometer": 34450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 05:30",
+			"odometer": 34500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 09:35",
+			"odometer": 34550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 10:35",
+			"odometer": 34600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 12:35",
+			"odometer": 34650,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 14:35",
+			"odometer": 34700,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 16:35",
+			"odometer": 34750,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 18:35",
+			"odometer": 34800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 20:35",
+			"odometer": 34850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/09/2018 22:35",
+			"odometer": 34900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 05:30",
+			"odometer": 34950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 09:35",
+			"odometer": 35000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 10:35",
+			"odometer": 35050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 12:35",
+			"odometer": 35100,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 14:35",
+			"odometer": 35150,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 16:35",
+			"odometer": 35200,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 18:35",
+			"odometer": 35250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 20:35",
+			"odometer": 35300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/09/2018 22:35",
+			"odometer": 35350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 05:30",
+			"odometer": 35400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 09:35",
+			"odometer": 35450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 10:35",
+			"odometer": 35500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 12:35",
+			"odometer": 35550,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 14:35",
+			"odometer": 35600,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 16:35",
+			"odometer": 35659,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 18:35",
+			"odometer": 35700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 20:35",
+			"odometer": 35750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/09/2018 22:35",
+			"odometer": 35800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 05:30",
+			"odometer": 35850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 09:35",
+			"odometer": 35900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 10:35",
+			"odometer": 35950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 12:35",
+			"odometer": 36000,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 14:35",
+			"odometer": 36050,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 16:35",
+			"odometer": 36100,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 18:35",
+			"odometer": 36150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 20:35",
+			"odometer": 36200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/09/2018 22:35",
+			"odometer": 36250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 05:30",
+			"odometer": 36300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 09:35",
+			"odometer": 36350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 10:35",
+			"odometer": 36400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 12:35",
+			"odometer": 36450,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 14:35",
+			"odometer": 36500,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 16:35",
+			"odometer": 36550,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 18:35",
+			"odometer": 36600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 20:35",
+			"odometer": 36650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/09/2018 22:35",
+			"odometer": 36700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 05:30",
+			"odometer": 36750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 09:35",
+			"odometer": 36800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 10:35",
+			"odometer": 36850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 12:35",
+			"odometer": 36900,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 14:35",
+			"odometer": 36950,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 16:35",
+			"odometer": 37000,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 18:35",
+			"odometer": 37050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 20:35",
+			"odometer": 37100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/09/2018 22:35",
+			"odometer": 37150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 05:30",
+			"odometer": 37200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 09:35",
+			"odometer": 37250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 10:35",
+			"odometer": 37300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 12:35",
+			"odometer": 37350,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 14:35",
+			"odometer": 37400,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 16:35",
+			"odometer": 37450,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 18:35",
+			"odometer": 37500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 20:35",
+			"odometer": 37550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/09/2018 22:35",
+			"odometer": 37600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 05:30",
+			"odometer": 37650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 09:35",
+			"odometer": 37700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 10:35",
+			"odometer": 37760,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 12:35",
+			"odometer": 37800,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 14:35",
+			"odometer": 37870,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 16:35",
+			"odometer": 37900,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 18:35",
+			"odometer": 37980,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 20:35",
+			"odometer": 38500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/09/2018 22:35",
+			"odometer": 38590,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 05:30",
+			"odometer": 38650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 09:35",
+			"odometer": 38700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 10:35",
+			"odometer": 38750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 12:35",
+			"odometer": 38800,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 14:35",
+			"odometer": 38850,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 16:35",
+			"odometer": 38900,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 18:35",
+			"odometer": 38950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 20:35",
+			"odometer": 39000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/09/2018 22:35",
+			"odometer": 39050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 05:30",
+			"odometer": 39100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 09:35",
+			"odometer": 39150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 10:35",
+			"odometer": 39200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 12:35",
+			"odometer": 39250,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 14:35",
+			"odometer": 39300,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 16:35",
+			"odometer": 39350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 18:35",
+			"odometer": 39400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 20:35",
+			"odometer": 39450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/09/2018 22:35",
+			"odometer": 39500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 05:30",
+			"odometer": 39550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 09:35",
+			"odometer": 39600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 10:35",
+			"odometer": 39650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 12:35",
+			"odometer": 39700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 14:35",
+			"odometer": 39750,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 16:35",
+			"odometer": 39800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 18:35",
+			"odometer": 39850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 20:35",
+			"odometer": 39900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/09/2018 22:35",
+			"odometer": 39950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 05:30",
+			"odometer": 40001,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 09:35",
+			"odometer": 40050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 10:35",
+			"odometer": 40100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 12:35",
+			"odometer": 40150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 14:35",
+			"odometer": 40200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 16:35",
+			"odometer": 40250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 18:35",
+			"odometer": 40300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 20:35",
+			"odometer": 40350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/09/2018 22:35",
+			"odometer": 40400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 05:30",
+			"odometer": 40450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 09:35",
+			"odometer": 40500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 10:35",
+			"odometer": 40550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 12:35",
+			"odometer": 40600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 14:35",
+			"odometer": 40660,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 16:35",
+			"odometer": 40700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 18:35",
+			"odometer": 40750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 20:35",
+			"odometer": 40800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/09/2018 22:35",
+			"odometer": 40850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 05:30",
+			"odometer": 40900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 09:35",
+			"odometer": 40950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 10:35",
+			"odometer": 41000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 12:35",
+			"odometer": 41050,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 14:35",
+			"odometer": 41100,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 16:35",
+			"odometer": 41150,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 18:35",
+			"odometer": 41200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 20:35",
+			"odometer": 41250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/09/2018 22:35",
+			"odometer": 41300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 05:30",
+			"odometer": 41350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 09:35",
+			"odometer": 41400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 10:35",
+			"odometer": 41450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 12:35",
+			"odometer": 41500,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 14:35",
+			"odometer": 41550,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 16:35",
+			"odometer": 41600,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 18:35",
+			"odometer": 41670,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 20:35",
+			"odometer": 41700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/09/2018 22:35",
+			"odometer": 41750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 05:30",
+			"odometer": 41800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 09:35",
+			"odometer": 41900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 10:35",
+			"odometer": 41980,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 12:35",
+			"odometer": 42000,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 14:35",
+			"odometer": 42050,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 16:35",
+			"odometer": 42100,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 18:35",
+			"odometer": 42150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 20:35",
+			"odometer": 42200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/09/2018 22:35",
+			"odometer": 42250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 05:30",
+			"odometer": 42300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 09:35",
+			"odometer": 42350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 10:35",
+			"odometer": 42400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 12:35",
+			"odometer": 42450,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 14:35",
+			"odometer": 42500,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 16:35",
+			"odometer": 42550,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 18:35",
+			"odometer": 42600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 20:35",
+			"odometer": 42650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "02/11/2018 22:35",
+			"odometer": 42700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 05:30",
+			"odometer": 42750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 09:35",
+			"odometer": 42800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 10:35",
+			"odometer": 42850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 11:35",
+			"odometer": 42900,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 14:35",
+			"odometer": 42950,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 16:35",
+			"odometer": 43000,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 18:35",
+			"odometer": 43050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 20:35",
+			"odometer": 43100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "03/11/2018 22:35",
+			"odometer": 43150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 05:30",
+			"odometer": 43200,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 09:35",
+			"odometer": 43250,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 10:35",
+			"odometer": 43300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 11:35",
+			"odometer": 43350,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 14:35",
+			"odometer": 43400,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 16:35",
+			"odometer": 43450,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 18:35",
+			"odometer": 43500,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 20:35",
+			"odometer": 43550,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "04/11/2018 22:35",
+			"odometer": 43600,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 05:30",
+			"odometer": 43650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 09:35",
+			"odometer": 43700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 10:35",
+			"odometer": 43750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 11:35",
+			"odometer": 43800,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 14:35",
+			"odometer": 43850,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 16:35",
+			"odometer": 43900,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 18:35",
+			"odometer": 43950,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 20:35",
+			"odometer": 44000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "05/11/2018 22:35",
+			"odometer": 44050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 05:30",
+			"odometer": 44100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 09:35",
+			"odometer": 44150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 10:35",
+			"odometer": 44200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 11:35",
+			"odometer": 44250,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 14:35",
+			"odometer": 44300,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 16:35",
+			"odometer": 44350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 18:35",
+			"odometer": 44400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 20:35",
+			"odometer": 44450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "06/11/2018 22:35",
+			"odometer": 44500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 05:30",
+			"odometer": 44550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 09:35",
+			"odometer": 44600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 10:35",
+			"odometer": 44650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 11:35",
+			"odometer": 44700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 14:35",
+			"odometer": 44750,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 16:35",
+			"odometer": 44800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 18:35",
+			"odometer": 44850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 20:35",
+			"odometer": 44900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "07/11/2018 22:35",
+			"odometer": 44950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 05:30",
+			"odometer": 45000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 09:35",
+			"odometer": 45050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 10:35",
+			"odometer": 45100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 11:35",
+			"odometer": 45150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 14:35",
+			"odometer": 45200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 16:35",
+			"odometer": 45250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 18:35",
+			"odometer": 45300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 20:35",
+			"odometer": 45350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "08/11/2018 22:35",
+			"odometer": 45400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 05:30",
+			"odometer": 45450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 09:35",
+			"odometer": 45500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 10:35",
+			"odometer": 45550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 11:35",
+			"odometer": 45600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 14:35",
+			"odometer": 45650,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 16:35",
+			"odometer": 45700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 18:35",
+			"odometer": 45750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 20:35",
+			"odometer": 45800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "09/11/2018 22:35",
+			"odometer": 45850,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 05:30",
+			"odometer": 45900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 09:35",
+			"odometer": 46000,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 10:35",
+			"odometer": 46050,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 11:35",
+			"odometer": 46100,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 14:35",
+			"odometer": 46150,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 16:35",
+			"odometer": 46200,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 18:35",
+			"odometer": 46250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 20:35",
+			"odometer": 46300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "10/11/2018 22:35",
+			"odometer": 46350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 05:30",
+			"odometer": 46400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 09:35",
+			"odometer": 46450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 10:35",
+			"odometer": 46500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 11:35",
+			"odometer": 46550,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 14:35",
+			"odometer": 46600,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 16:35",
+			"odometer": 46650,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 18:35",
+			"odometer": 46700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 20:35",
+			"odometer": 46750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 22:35",
+			"odometer": 46800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 05:30",
+			"odometer": 46850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 09:35",
+			"odometer": 46900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 10:35",
+			"odometer": 46950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 11:35",
+			"odometer": 47000,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 14:35",
+			"odometer": 47050,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 16:35",
+			"odometer": 47100,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 18:35",
+			"odometer": 47150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 20:35",
+			"odometer": 47200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "11/11/2018 22:35",
+			"odometer": 47250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 05:30",
+			"odometer": 47300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 09:35",
+			"odometer": 47350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 10:35",
+			"odometer": 47400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 11:35",
+			"odometer": 47450,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 14:35",
+			"odometer": 47450,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 16:35",
+			"odometer": 47500,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 18:35",
+			"odometer": 47550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 20:35",
+			"odometer": 47600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "13/11/2018 22:35",
+			"odometer": 47650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 05:30",
+			"odometer": 47700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 09:35",
+			"odometer": 47750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 10:35",
+			"odometer": 47800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 11:35",
+			"odometer": 47850,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 14:35",
+			"odometer": 47900,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 16:35",
+			"odometer": 47950,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 18:35",
+			"odometer": 48000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 20:35",
+			"odometer": 48050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "14/11/2018 22:35",
+			"odometer": 48100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 05:30",
+			"odometer": 48150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 09:35",
+			"odometer": 48200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 10:35",
+			"odometer": 48250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 11:35",
+			"odometer": 48300,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 14:35",
+			"odometer": 48350,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 16:35",
+			"odometer": 48400,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 18:35",
+			"odometer": 48450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 20:35",
+			"odometer": 48500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "15/11/2018 22:35",
+			"odometer": 48550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 05:30",
+			"odometer": 48600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 09:35",
+			"odometer": 48650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 10:35",
+			"odometer": 48700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 11:35",
+			"odometer": 48750,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 14:35",
+			"odometer": 48800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 16:35",
+			"odometer": 48850,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 18:35",
+			"odometer": 48900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 20:35",
+			"odometer": 48950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "16/11/2018 22:35",
+			"odometer": 49000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 05:30",
+			"odometer": 49050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 09:35",
+			"odometer": 49100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 10:35",
+			"odometer": 49180,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 11:35",
+			"odometer": 49250,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 14:35",
+			"odometer": 49300,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 16:35",
+			"odometer": 49350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 18:35",
+			"odometer": 49400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 20:35",
+			"odometer": 49450,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "17/11/2018 22:35",
+			"odometer": 49500,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 05:30",
+			"odometer": 49550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 09:35",
+			"odometer": 49600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 10:35",
+			"odometer": 49650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 11:35",
+			"odometer": 49700,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 14:35",
+			"odometer": 49750,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 16:35",
+			"odometer": 49800,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 18:35",
+			"odometer": 49850,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 20:35",
+			"odometer": 49900,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "18/11/2018 22:35",
+			"odometer": 49950,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 05:30",
+			"odometer": 50001,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 09:35",
+			"odometer": 50050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 10:35",
+			"odometer": 50100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 11:35",
+			"odometer": 50150,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 14:35",
+			"odometer": 50200,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 16:35",
+			"odometer": 50250,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 18:35",
+			"odometer": 50300,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 20:35",
+			"odometer": 50350,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "19/11/2018 22:35",
+			"odometer": 50400,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 05:30",
+			"odometer": 50450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 09:35",
+			"odometer": 50500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 10:35",
+			"odometer": 50550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 11:35",
+			"odometer": 50600,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 14:35",
+			"odometer": 50650,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 16:35",
+			"odometer": 50700,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 18:35",
+			"odometer": 50750,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 20:35",
+			"odometer": 50800,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "20/11/2018 22:35",
+			"odometer": 50860,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 05:30",
+			"odometer": 50900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 09:35",
+			"odometer": 50950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 10:35",
+			"odometer": 51000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 11:35",
+			"odometer": 51050,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 14:35",
+			"odometer": 51100,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 16:35",
+			"odometer": 51150,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 18:35",
+			"odometer": 51100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 20:35",
+			"odometer": 51150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "21/11/2018 22:35",
+			"odometer": 51300,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 05:30",
+			"odometer": 51350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 09:35",
+			"odometer": 51400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 10:35",
+			"odometer": 51450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 11:35",
+			"odometer": 51500,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 14:35",
+			"odometer": 51550,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 16:35",
+			"odometer": 51600,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 18:35",
+			"odometer": 51650,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 20:35",
+			"odometer": 51700,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "22/11/2018 22:35",
+			"odometer": 51750,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 05:30",
+			"odometer": 51800,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 09:35",
+			"odometer": 51850,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 10:35",
+			"odometer": 51900,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 11:35",
+			"odometer": 51950,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 14:35",
+			"odometer": 52000,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 16:35",
+			"odometer": 52050,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 18:35",
+			"odometer": 52100,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 20:35",
+			"odometer": 52150,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "23/11/2018 22:35",
+			"odometer": 52200,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 05:30",
+			"odometer": 52250,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 09:35",
+			"odometer": 52300,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 10:35",
+			"odometer": 52350,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 11:35",
+			"odometer": 52400,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 14:35",
+			"odometer": 52450,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 16:35",
+			"odometer": 52500,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 18:35",
+			"odometer": 52550,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 20:35",
+			"odometer": 52600,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "24/11/2018 22:35",
+			"odometer": 52650,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 05:30",
+			"odometer": 52700,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 09:35",
+			"odometer": 52750,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 10:35",
+			"odometer": 52800,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 11:35",
+			"odometer": 52850,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 14:35",
+			"odometer": 52900,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 16:35",
+			"odometer": 52950,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 18:35",
+			"odometer": 53000,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 20:35",
+			"odometer": 53050,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "25/11/2018 22:35",
+			"odometer": 53100,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 05:30",
+			"odometer": 53150,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 09:35",
+			"odometer": 53200,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 10:35",
+			"odometer": 53250,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 11:35",
+			"odometer": 53300,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 14:35",
+			"odometer": 53350,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 16:35",
+			"odometer": 53400,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 18:35",
+			"odometer": 53450,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 20:35",
+			"odometer": 53500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "26/11/2018 22:35",
+			"odometer": 53550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 05:30",
+			"odometer": 53600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 09:35",
+			"odometer": 53650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 10:35",
+			"odometer": 53700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 11:35",
+			"odometer": 53750,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 14:35",
+			"odometer": 53800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 16:35",
+			"odometer": 53850,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 18:35",
+			"odometer": 53900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 20:35",
+			"odometer": 53960,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "27/11/2018 22:35",
+			"odometer": 54000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 05:30",
+			"odometer": 54050,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 09:35",
+			"odometer": 54100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 10:35",
+			"odometer": 54160,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 11:35",
+			"odometer": 54200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 14:35",
+			"odometer": 54270,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 16:35",
+			"odometer": 54350,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 18:35",
+			"odometer": 54400,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 20:35",
+			"odometer": 54500,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "28/11/2018 22:35",
+			"odometer": 54550,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 05:30",
+			"odometer": 54600,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 09:35",
+			"odometer": 54650,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 10:35",
+			"odometer": 54700,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 11:35",
+			"odometer": 54750,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 14:35",
+			"odometer": 54800,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 16:35",
+			"odometer": 54850,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 18:35",
+			"odometer": 54900,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 20:35",
+			"odometer": 54950,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "29/11/2018 22:35",
+			"odometer": 55000,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 05:30",
+			"odometer": 55060,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 09:35",
+			"odometer": 55100,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 10:35",
+			"odometer": 55150,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 11:35",
+			"odometer": 55200,
+			"fuel": 16
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 14:35",
+			"odometer": 55250,
+			"fuel": 8
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 16:35",
+			"odometer": 55300,
+			"fuel": 2
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 18:35",
+			"odometer": 55350,
+			"fuel": 40
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 20:35",
+			"odometer": 55400,
+			"fuel": 32
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "30/11/2018 22:35",
+			"odometer": 55450,
+			"fuel": 24
+		},
+		{
+			"vin": "WF0JXXGAHJHC40110",
+			"dateTime": "01/01/2019 05:35",
+			"odometer": 55550,
+			"fuel": 16
+		}
+	]
 }
